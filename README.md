@@ -1,30 +1,28 @@
-# BlockChainVoting give **
 
-A blockchain-based E-voting system, created as the final year project of Vidyavardhaka College of Engineering. Teammates include me(Hrithik Gowda), Vikram and Mehta
+## Installation
 
+1. Open a terminal.
 
-## Build Setup
+2. Clone the repository by using the command
+        
+        git clone https://github.com/ditya17/Blockchain-Voting-System.git
 
-```bash
-# install dependencies
-npm install
+3. Download and install [Ganache](https://trufflesuite.com/ganache/).
+
+5. Download [Metamask](https://metamask.io/download/) extension for the browser.
+
+6. Now create wallet (if you don't have one), then import accounts from ganache.cies
 
 # serve with hot reload at localhost:3000
 npm start
 ```
 
-Create your own <b>.env</b> file and the file should contain:
-```bash
-EMAIL=YOUR_EMAIL_ID
-PASSWORD=YOUR_PASSWORD_FOR_EMAIL_ID
-```
 Install MetaMask extension (https://metamask.io/download.html) and make sure to have some Ether to test the application locally. Ether can be fetched from Mumbai Faucet (https://mumbaifaucet.com/)
 
 #### Note:
 - Make sure to install Node.js v11.14.0(IMP**) to make sure the app runs fine. Testing for other node versions is yet to be done.
 - MongoDB must be working in background on localhost:27017
 
-###### Please star the repo if it helped you in any way!
 
 ## Tech Stack:
 
@@ -33,56 +31,4 @@ Install MetaMask extension (https://metamask.io/download.html) and make sure to 
 - MongoDB/ExpressJS/Node.js (back-end)
 - IPFS (file storage for images)
 
-## Screenshots of the app:
 
-Homepage of the application:
-
-![](screenshots/homepage.PNG)
-
-Company registers/logs in:
-
-![](screenshots/company_login.PNG)
-
-Company creates an election if not created:
-
-![](screenshots/create_election.PNG)
-
-Dashboard on successful election creation:
-
-![](screenshots/dashboard.PNG)
-
-List of candidates for the election (here, you can add candidates):
-
-![](screenshots/candidate_list.PNG)
-
-Candidate has been notified on the mail:
-
-![](screenshots/candidate_registeration_mail.PNG)
-
-List of voters for the election (here, you can add voters):
-
-![](screenshots/voterlist.PNG)
-
-Voters have been sent their secure usernames and passwords on the mail:
-
-![](screenshots/voter_registeration_mail.PNG)
-
-Voter login page:
-
-![](screenshots/voter_login.PNG)
-
-Successful voting scenario:
-
-![](screenshots/successful_voting.PNG)
-
-Unsuccessful voting scenario:
-
-![](screenshots/unsuccessful_voting.PNG)
-
-Notification to each candidate and voter for the winner of candidates:
-
-![](screenshots/winner_candidate_mail.PNG)
-
-Have a great day.
-
-testing for nodejs v 12+ . will update 
